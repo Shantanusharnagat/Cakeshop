@@ -5,15 +5,15 @@ const {route} = require('express/lib/application')
 const routes=express.Router()
 
 routes.get("/", (req, res)=>{
-    res.render("index")
+    res.render("home")
 })
 
-routes.get('/brocher', (req, res)=>{
-    res.render("brocher")
+routes.get('/menu', (req, res)=>{
+    res.render("menu")
 })
 
-routes.get('/product', (req, res)=>{
-    res.render("product")
+routes.get('/contact', (req, res)=>{
+    res.render("contact")
 })
 
 routes.get('/about', (req, res)=>{
