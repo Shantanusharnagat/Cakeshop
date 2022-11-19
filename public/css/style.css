@@ -3,6 +3,9 @@ body::-webkit-scrollbar {
 
 }
 
+.hishighness {
+    font-size: xx-large;
+}
 
 
 
@@ -37,6 +40,13 @@ body::-webkit-scrollbar {
 .cust-head {
     padding-top: 1em;
     padding-left: 1em;
+}
+
+.line {
+    margin-top: 48px;
+    color: black;
+    background-color: gray;
+    height: 1px;
 }
 
 .contact {
