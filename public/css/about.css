@@ -1,0 +1,26 @@
+body {
+    overflow: hidden;
+}
+
+.bapu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35vh;
+    color: white;
+}
+
+.tapu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+
+}
+
+.cap {
+
+    width: 600px;
+}

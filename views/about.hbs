@@ -5,10 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/about.css">
   </head>
   <body>
-   {{>navbar}}
-    <h1>About dekhlo</h1>
+    {{>navbar}}
+   
+    <!-- Background image -->
+<div
+  class="bg-image"
+  style="
+    background-image: url('/static/images/Cakeshop.png');
+    height: 100vh;
+  "
+>
+  <div  class="mask" style="background-color: rgba(0, 0, 0, 0.6);
+  height: 100%"
+  >
+    <div class="bapu">
+      <h1 class="">CakeShop</h1>
+      </div>
+      
+          
+  
+       <div class="tapu">
+        <p class="cap"><br>The Cake Shop, is a Cake Studio that offers Wedding cakes, Custom cakes, and a small variety of bite sized treats. Everything is made from scratch in house and with localey sourced ingredients when possible.
+The Cake Shop is not a retail bakery. We are by appointment only. This way we can give each client and order the care and attention they deserve. We love working with our clients to make their dessert dreams come true!</p>
+ 
+     </div>
+
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>

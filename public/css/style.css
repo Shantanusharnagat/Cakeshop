@@ -1,6 +1,10 @@
 body::-webkit-scrollbar {
     display: none;
+
 }
+
+
+
 
 
 .slider-image {
@@ -21,4 +25,23 @@ body::-webkit-scrollbar {
     top: 200px;
     left: 1000px;
     width: 500px;
+}
+
+.reviews {
+    width: 100%;
+    color: white;
+    height: 300px;
+    background-color: white;
+}
+
+.cust-head {
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.contact {
+    width: 100%;
+    background-color: white;
+    height: 300px;
+    color: black;
 }
